@@ -1,7 +1,18 @@
 :root {
-  --c-pale-blue: hsl(225, 100%, 94%);
-  --c-bright-blue: hsl(245, 75%, 52%);
-  --c-very-pale-blue: hsl(225, 100%, 98%);
-  --c-desaturated-blue: hsl(224, 23%, 55%);
-  --c-dark-blue: hsl(223, 47%, 23%);
+  --c-pale-blue: 225, 100%, 94%;
+  --c-bright-blue: 245, 75%, 52%;
+  --c-desaturated-blue: 224, 23%, 55%;
+  --c-very-pale-blue: 225, 100%, 98%;
+  --c-dark-blue: 223, 47%, 23%;
+
+  --c-primary: hsla(var(--c-bright-blue), 1);
+  --c-primary--75: hsla(var(--c-bright-blue), 0.75);
+  --c-secondary: hsla(var(--c-desaturated-blue), 1);
+  --c-secondary--20: hsla(var(--c-desaturated-blue), 0.2);
+
+  --c-text-primary: hsla(var(--c-dark-blue), 1);
+  --c-text-secondary: hsla(var(--c-desaturated-blue), 1);
+
+  --c-page-background: hsla(var(--c-pale-blue), 1);
+  --c-plan-background: hsla(var(--c-very-pale-blue), 1);
 }

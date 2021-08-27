@@ -3,7 +3,7 @@
 main {
   min-height: 100vh;
   width: 100%;
-  background: var(--c-pale-blue);
+  background: var(--c-page-background);
 
   display: flex;
   justify-content: center;
@@ -40,7 +40,7 @@ main {
   background-color: #fff;
   border-radius: 19px;
   overflow: hidden;
-  box-shadow: 0px 20px 20px -6px hsla(224, 23%, 55%, 0.25);
+  box-shadow: 0px 20px 20px -6px var(--c-secondary--20);
 }
 
 .card__body {
@@ -53,14 +53,13 @@ main {
 .card__title,
 .card__title h1 {
   font-size: var(--step-4);
-  font-weight: 900;
-  margin-bottom: var(--space-xs);
-  color: var(--c-dark-blue);
+  font-weight: 900; 
+  color: var(--c-text-primary);
 }
 
 .card__text {
   line-height: 1.6;
-  color: var(--c-desaturated-blue);
+  color: var(--c-text-secondary);
 }
 
 .card__title,
@@ -76,7 +75,7 @@ main {
   margin-top: var(--space-m);
   margin-bottom: var(--space-xl);
   padding: var(--space-l);
-  background-color: var(--c-very-pale-blue);
+  background-color: var(--c-plan-background);
   border-radius: 10px;
 
   &__icon {
@@ -94,14 +93,14 @@ main {
     display: flex;
     flex-direction: column;
     letter-spacing: 0.02rem;
-    color: var(--c-desaturated-blue);
+    color: var(--c-text-secondary);
     margin-right: var(--space-s);
   }
 
   &__label {
     font-weight: 700;
     margin-bottom: var(--space--2xs);
-    color: var(--c-dark-blue);
+    color: var(--c-text-primary);
   }
 
   &__button {
@@ -110,10 +109,10 @@ main {
     font-weight: 700;
 
     a {
-      color: var(--c-bright-blue);
+      color: var(--c-primary);
 
       &:hover {
-        color: hsla(245, 75%, 52%, 0.7);
+        color: var(--c-primary--75);
       }
     }
   }
@@ -130,23 +129,23 @@ button {
   letter-spacing: 0.25px;
 
   &.button--primary {
-    background-color: var(--c-bright-blue);
+    background-color: var(--c-primary);
     color: #fff;
-    box-shadow: 0px 20px 19px -6px hsla(245, 75%, 52%, 0.25);
+    box-shadow: 0px 20px 19px -6px var(--c-primary--50);
 
     &:hover {
-      background-color: hsla(245, 75%, 52%, 0.7);
+      background-color: var(--c-primary--75);
       cursor: pointer;
     }
   }
 
   &.button--secondary {
     background: none;
-    color: var(--c-desaturated-blue);
+    color: var(--c-secondary);
     margin-top: var(--space-s);
 
     &:hover {
-      color: var(--c-dark-blue);
+      color: var(--c-text-primary);
       cursor: pointer;
     }
   }

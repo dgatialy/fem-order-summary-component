@@ -131,7 +131,7 @@ button {
   &.button--primary {
     background-color: var(--c-primary);
     color: #fff;
-    box-shadow: 0px 20px 19px -6px var(--c-primary--50);
+    box-shadow: 0px 20px 19px -6px var(--c-primary--30);
 
     &:hover {
       background-color: var(--c-primary--75);

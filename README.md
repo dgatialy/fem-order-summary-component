@@ -44,8 +44,8 @@ Users should be able to:
 
 ### What I learned
 
-- Dieses Mal nicht in Figma nachgebaut, sondern das Design als Background über den Code gelegt. In Figma zu beginnen hat sich jedoch als vorteilhaft herausgestellt, um Spacings und Farben später besser extrahieren zu können.
-- Fluide Spacing und Typographie scheint mir nach wie vor Arbeit abzunehmen. Anstatt für verschiedene Breakpoints die Spacings und Schriftgrößen manuell/absolut zu definieren. Bedeutet aber auch, dass damit kein pixelgenaues Design möglich war. Aber Look & Feel bleibt erhalten.
+- This time I didn't recreate the design in Figma, but used it as a background to overlay the code. However, it turned out to be an advantage to start in Figma in order to be able to extract spacings and colors better later on.
+- Fluid spacing and typography still seems to take work out of it. Instead of manually/absolutely defining the spacings and font sizes for different breakpoints. But this also means that pixel-perfect design was not possible with this. The look & feel is still maintained, though.
 
 ### Continued development
 

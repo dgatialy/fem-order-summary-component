@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/dgatialy/fem-order-summary-component)
+- [Solution URL](https://www.frontendmentor.io/solutions/order-summary-card-aVOkW__7b)
 - [Live Site URL](https://thirsty-almeida-030b8b.netlify.app/)
 
 ## My process
